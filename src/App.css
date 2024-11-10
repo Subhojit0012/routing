@@ -44,6 +44,8 @@
   justify-content: space-between; /* Space out nav items */
   align-items: center; /* Center items vertically */
   border-bottom: 1px solid #e0e0e0; /* Bottom border for separation */
+  position: sticky;
+  top: 0;
 }
 
 .header-route nav {
@@ -61,4 +63,3 @@
 .header-route a:hover {
   color: #0056b3; /* Darker blue on hover */
 }
-
