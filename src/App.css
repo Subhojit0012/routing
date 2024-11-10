@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.header-route {
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 10px 20px; /* Padding around the header */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space out nav items */
+  align-items: center; /* Center items vertically */
+  border-bottom: 1px solid #e0e0e0; /* Bottom border for separation */
+}
+
+.header-route nav {
+  display: flex; /* Flexbox for nav items */
+  gap: 15px; /* Space between links */
+}
+
+.header-route a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Blue color for links */
+  font-weight: bold; /* Bold text */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header-route a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
